@@ -377,7 +377,7 @@ def saveInfo():
     saveDict = {}
 
     if(len(customerList) == 0):
-        print("there is no save information.")
+        print("there is no information to save")
     else:
         for account in customerList:
             saveDict[account] = customerList[account].returnInfo()
