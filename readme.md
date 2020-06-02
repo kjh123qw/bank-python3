@@ -1,6 +1,7 @@
 This program was created by Kim jeongho using python3.
 [output test result]
 
+```
 ---
 
 \***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\*** RUNNING BANKING SYSTEM 3.0 \***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***
@@ -10,7 +11,7 @@ This program was created by Kim jeongho using python3.
 ---
 
 MAIN MENU
-1.create account  
+1.create account
 2.depositn
 3.withdraw
 4.list print
@@ -230,3 +231,4 @@ MAIN MENU
 0.exit
 please select menu >> 0
 Thank you~!
+```
