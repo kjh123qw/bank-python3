@@ -12,6 +12,9 @@ customerList = {}
 
 def main():
     """main method"""
+    print("*" * 80)
+    print("*" * 26, "RUNNING BANKING SYSTEM 3.0", "*" * 26)
+    print("*" * 80)
     loadInfo()
     while 1:
         print("-" * 80)
@@ -54,7 +57,7 @@ def createAcc():
     print(" * Name is minimum 2 letters, maximum 5 letters.")
     print(" * Start deposit is higher than 1,000, less than 10,000,000")
     print(" * Interest rate is higher than 0.0, less than 20.0 without \"%\" signal")
-    print(" * Credit rating has to select one of \"A\", \"B\", \"C\"")
+    print(" * Credit grade has to select one of \"A\", \"B\", \"C\"")
     while 1:
         if(step == 0):
             print("-" * 80)
@@ -141,7 +144,8 @@ def createAcc():
                 else:
                     print("  Err - wrong input")
         elif(step == 5):
-            print("credit rate [x:main menu b:previous step] >> ", end="")
+            print(
+                "credit grade(A, B, C) [x:main menu b:previous step] >> ", end="")
             inp = input()
             if(inp.__eq__("x")):
                 break
@@ -192,7 +196,7 @@ def deposit():
     print(" * A remittance money is higher than 1,000, less than 99,999,999")
     while 1:
         if(step == 0):
-            print("deposit accountnumber [x:main menu] >> ", end="")
+            print("deposit account number [x:main menu] >> ", end="")
             inp = input()
             if(inp.__eq__("x")):
                 break
